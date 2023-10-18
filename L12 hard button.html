@@ -1,0 +1,21 @@
+<head>
+    <meta name="color-scheme" content="dark">
+    <body>
+        <button id="button1">Run Function</button>
+
+        <script>
+            var myButton = document.getElementById("button1");
+            console.log(myButton)
+
+            myButton.addEventListener("click", hello);
+        
+        
+            function hello(){
+                var greeting = "Hello World!";
+                alert(greeting);
+                console.log(hello)
+            }
+        </script>
+
+    </body>
+</head>
